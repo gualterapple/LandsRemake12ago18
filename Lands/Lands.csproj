@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" Version="2.0.0" />
     <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.3.840" />
     <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.3.840" />
     <PackageReference Include="Xamarin.FFImageLoading.Svg" Version="2.4.3.840" />
@@ -26,6 +27,9 @@
     <Compile Remove="ViewModels\BaseViewModels.cs" />
     <Compile Remove="Views\LandPage.cs" />
     <Compile Remove="Views\LandTabbedPage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lands.Domain\Lands.Domain.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Resources\Resource.Designer.cs">

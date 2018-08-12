@@ -43,7 +43,7 @@
                 }
 
                 return string.Format(
-                    "http://landsapi1.azurewebsites.net/{0}",
+                    "http://webapixamarin-001-site1.atempurl.com/{0}",
                     ImagePath.Substring(1));
             }
         }
