@@ -2,57 +2,63 @@
 
 namespace Lands.ViewModels
 {
-	using System.Collections.Generic;
+    using System.Collections.Generic;
     using Models;
 
-	public class MainViewModel
-	{
+    public class MainViewModel
+    {
         #region Properties
-		public List<Land> LandsList
+        public List<Land> LandsList
         {
             get;
             set;
         }
-		#endregion
+        #endregion
 
-		#region ViewModels
-		public LoginViewModel Login
-		{
-			get;
-			set;
-		}
-		public LandsViewModel Lands
-		{
-			get;
-			set;
-		}
-		public LandViewModel Land
-		{
+        public TokenResponse Token
+        {
             get;
             set;
         }
-		#endregion
 
-		#region Constructor
-		public MainViewModel()
-		{
-			instance = this;
-			this.Login = new LoginViewModel();
-		}
-		#endregion
+        #region ViewModels
+        public LoginViewModel Login
+        {
+            get;
+            set;
+        }
+        public LandsViewModel Lands
+        {
+            get;
+            set;
+        }
+        public LandViewModel Land
+        {
+            get;
+            set;
+        }
+        #endregion
 
-		#region Singleton
-		private static MainViewModel instance;
-		public static MainViewModel GetInstance()
-		{
-			if(instance == null)
-			{
-				return new MainViewModel();
+        #region Constructor
+        public MainViewModel()
+        {
+            instance = this;
+            this.Login = new LoginViewModel();
+        }
+        #endregion
+
+        #region Singleton
+        private static MainViewModel instance;
+        public static MainViewModel GetInstance()
+        {
+            if (instance == null)
+            {
+                return new MainViewModel();
             }
 
-			return instance;
+            return instance;
         }
-		#endregion
-	}
+        #endregion
+    }
 }
 
