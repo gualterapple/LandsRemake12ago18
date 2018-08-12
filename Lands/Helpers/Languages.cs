@@ -30,7 +30,7 @@
 
         public static string EmailPLaceHolder
         {
-            get { return Resource.EmailPLaceHolder; }
+            get { return Resource.EmailPlaceHolder; }
         }
         public static string Rememberme
         {
