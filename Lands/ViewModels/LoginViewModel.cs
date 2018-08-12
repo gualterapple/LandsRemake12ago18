@@ -87,7 +87,7 @@
             {
                 await Application.Current.MainPage.DisplayAlert(
 					Languages.Error,
-					Languages.Accept,
+					"Insert your password",
 					Languages.Accept);
                 return;
             }
