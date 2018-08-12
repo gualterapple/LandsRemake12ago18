@@ -70,6 +70,15 @@ namespace Lands.Resources {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Enter your email.
+        /// </summary>
+        public static string EmailPLaceHolder {
+            get {
+                return ResourceManager.GetString("EmailPLaceHolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Insert an email.
         /// </summary>
         public static string EmailValidation {
@@ -84,6 +93,15 @@ namespace Lands.Resources {
         public static string Error {
             get {
                 return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Remember me in this device.
+        /// </summary>
+        public static string Rememberme {
+            get {
+                return ResourceManager.GetString("Rememberme", resourceCulture);
             }
         }
     }

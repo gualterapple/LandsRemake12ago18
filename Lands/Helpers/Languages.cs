@@ -28,6 +28,14 @@
             get { return Resource.Error; }
         }
 
-        
+        public static string EmailPLaceHolder
+        {
+            get { return Resource.EmailPLaceHolder; }
+        }
+        public static string Rememberme
+        {
+            get { return Resource.Rememberme; }
+        }
+
     }
 }
