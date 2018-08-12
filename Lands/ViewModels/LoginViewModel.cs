@@ -78,7 +78,7 @@
             {
                 await Application.Current.MainPage.DisplayAlert(
                     "Error",
-                    "Insert an email",
+                    "You must enter an email",
                     "Accept");
                 return;
             }
