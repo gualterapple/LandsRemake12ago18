@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lands", "Lands\Lands.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lands.Domain", "Lands.Domain\Lands.Domain.csproj", "{1523BEA9-FA13-4C01-8537-DDA4600BEE18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lands.Backend", "Lands.Backend\Lands.Backend.csproj", "{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,5 +87,21 @@ Global
 		{1523BEA9-FA13-4C01-8537-DDA4600BEE18}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
 		{1523BEA9-FA13-4C01-8537-DDA4600BEE18}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
 		{1523BEA9-FA13-4C01-8537-DDA4600BEE18}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.Release|iPhone.Build.0 = Release|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{5FAF56D2-F5EB-4B83-B6E2-2889F1BEEA4D}.AppStore|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
