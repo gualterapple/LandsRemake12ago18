@@ -72,9 +72,9 @@ namespace Lands.Resources {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Enter your email.
         /// </summary>
-        public static string EmailPLaceHolder {
+        public static string EmailPlaceHolder {
             get {
-                return ResourceManager.GetString("EmailPLaceHolder", resourceCulture);
+                return ResourceManager.GetString("EmailPlaceHolder", resourceCulture);
             }
         }
         
