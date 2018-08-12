@@ -6,6 +6,7 @@
     using System.ComponentModel;
     using GalaSoft.MvvmLight.Command;
     using Views;
+	using Helpers;
 
 
     public class LoginViewModel : BaseViewModel
@@ -77,17 +78,17 @@
             if (string.IsNullOrEmpty(this.Email))
             {
                 await Application.Current.MainPage.DisplayAlert(
-                    "Error",
-                    "You must enter an email",
-                    "Accept");
+					Languages.Error,
+					Languages.EmailValidation,
+					Languages.Accept);
                 return;
             }
             if (string.IsNullOrEmpty(this.Password))
             {
                 await Application.Current.MainPage.DisplayAlert(
-                    "Error",
-                    "Insert your password",
-                    "Accept");
+					Languages.Error,
+					Languages.Accept,
+					Languages.Accept);
                 return;
             }
 
@@ -102,9 +103,9 @@
                 this.IsEnabled = false;
 
                 await Application.Current.MainPage.DisplayAlert(
-                    "Error",
+					Languages.Error,
                     connection.Message,
-                    "Accept");
+					Languages.Accept);
                 return;
             }
 
@@ -119,9 +120,9 @@
                 this.IsEnabled = true;
 
                 await Application.Current.MainPage.DisplayAlert(
-                    "Error",
+					Languages.Error,
                     "Something was wrong, please try later.",
-                    "Accept");
+					Languages.Accept);
                 return;
             }
 
@@ -131,9 +132,9 @@
                 this.IsEnabled = true;
 
                 await Application.Current.MainPage.DisplayAlert(
-                    "Error",
+					Languages.Error,
                     token.ErrorDescription,
-                    "Accept");
+					Languages.Accept);
                 this.Password = string.Empty;
                 return;
             }
