@@ -72,9 +72,9 @@ namespace Lands.Resources {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Insert an email.
         /// </summary>
-        public static string Email {
+        public static string EmailValidation {
             get {
-                return ResourceManager.GetString("Email", resourceCulture);
+                return ResourceManager.GetString("EmailValidation", resourceCulture);
             }
         }
         
